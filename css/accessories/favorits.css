@@ -1,0 +1,59 @@
+.favorits{
+
+width:95%;
+height: 95%;
+border-radius: 10px;
+margin: 0 auto;
+margin-top: 30px;
+ 
+h1{
+    font-family: shabnam;
+font-size: 20px;
+color: dimgray;
+padding-top: 20px;
+padding-right: 55px;
+padding-bottom: 20px;
+
+}
+
+.favorits__swiper{
+
+
+
+    .swiper {
+      width: 80%;
+      height: 80%;
+    }
+
+    .swiper-slide {
+        width: 80%;
+height: 80%;
+        text-align: center;
+      font-size: 10px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      box-shadow: 1px rgb(212, 211, 211);
+      border-radius: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 15px;
+
+
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      
+    }
+
+
+}
+
+}

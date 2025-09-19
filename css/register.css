@@ -1,0 +1,131 @@
+.all-page {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-flow: row wrap;
+
+  .register-card {
+    box-sizing: border-box;
+    width: 350px;
+    height: 450px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-family: shabnam;
+
+    .regis-logo {
+      width: 95%;
+      height: 30%;
+      border-bottom: 1px solid gainsboro;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        display: block;
+        width: 130px;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+
+    h4 {
+      box-sizing: border-box;
+      padding-right: 25px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    h5 {
+      padding-right: 25px;
+      padding-bottom: 25px;
+      padding-left: 25px;
+      line-height: 25px;
+      text-align: justify;
+    }
+
+    .form {
+      width: 95%;
+      height: 50px;
+      margin: 10px auto;
+
+      position: relative;
+
+      [for="firstName"] {
+        color: black;
+        font-family: shabnam;
+        font-size: 14px;
+        position: absolute;
+        right: 45px;
+        top: 5px;
+        transition: 300ms;
+      }
+      #firstName {
+        width: 250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-right: 30px;
+        outline: unset;
+        font-size: 14px;
+        transition: 200ms;
+
+        &:focus {
+          box-shadow: 1px 2px 25px #9b9b9b;
+        }
+
+        &:focus ~ [for="firstName"] {
+          font-size: 13px;
+          top: -25px;
+          color: blue;
+        }
+      }
+    }
+
+    .reg-butt {
+      width: 75%;
+      height: 35px;
+      background: #0a5abd;
+      margin-right: 30px;
+      border-radius: 10px;
+
+      span {
+        color: white;
+        font-size: 15px;
+        padding-top: 10px;
+        font-family: shabnam;
+      }
+    }
+
+    .reg-end {
+      padding-top: 20px;
+      padding-right: 25px;
+      font-size: 12px;
+
+      .blue {
+        color: #0a5abd;
+      }
+    }
+  }
+}
+
+.reg-footer {
+  width: 100%;
+  height: 50px;
+  background-color: #2c5282;
+  display: flex;
+
+  span {
+    width: 100px;
+    height: 100%;
+    font-family: shabnam;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 13px;
+    gap: 0;
+    color: white;
+  }
+}

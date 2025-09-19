@@ -1,0 +1,13 @@
+@import "./setting.css";
+@import "./component/header.css";
+@import "./component/banner.css";
+@import "./discount.css";
+@import "./component/categori.css";
+@import "./component/available.css";
+@import "./component/why.css";
+@import "./accessories/sidebar.css";
+@import "./component/bestseller.css";
+@import "./accessories/favorits.css";
+@import "./accessories/last.css";
+@import "./component/footer.css";
+@import "./register.css";

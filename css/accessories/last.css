@@ -1,0 +1,59 @@
+.last {
+  width: 95%;
+  height: 250px;
+
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+
+  h1 {
+    font-family: shabnam;
+    font-size: 20px;
+    color: dimgray;
+    padding-top: 20px;
+    padding-right: 15px;
+  }
+
+  .last__swiper {
+    .swiper {
+      width: 75%;
+      height: 70%;
+    }
+
+    .swiper-slide {
+      width: 100%;
+      height: 195px;
+      text-align: center;
+
+      background: white;
+      border: 1px solid #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      box-shadow: 1px rgb(212, 211, 211);
+      border-radius: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-top: 25px;
+
+      p {
+        width: 100%;
+        height: 20%;
+        box-sizing: border-box;
+        font-family: shabnam;
+        font-size: 12px;
+        color: lightslategray;
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 70%;
+      object-fit: cover;
+      border-radius: 10px;
+    margin-bottom: 5px;
+    }
+  }
+}

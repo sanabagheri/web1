@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فروشگاه اینترنتی دسترسی</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- #region start project-->
+
+
+      <!-- #region header-->
+      <header class="header">
+        <div class="header__top">
+          <div class="header__top__item">
+            <div class="logo">
+              <img src="./images/header/logo.png" alt="" />
+            </div>
+            <div class="search">
+              <div class="search__item">
+                <label for="search">
+                  <img src="./images/header/search.svg" alt="" />
+                </label>
+                <input
+                  type="search"
+                  id="search"
+                  name="search"
+                  placeholder="جست وجو محصولات"
+                />
+              </div>
+            </div>
+            <div class="about">
+              <div class="about__link">
+                <a href="#" class="about__link__item">باشگاه مشتریان</a>
+              </div>
+              <div class="about__link">
+                <a href="#" class="about__link__item">بلاگ</a>
+              </div>
+              <div class="about__link">
+                <a href="#" class="about__link__item">ارتباط ما</a>
+              </div>
+              <div class="about__link">
+                <a href="#" class="about__link__item">درباره ما</a>
+              </div>
+            </div>
+            <div class="login">
+              <div class="cart">
+                <svg
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+
+                  <g class="wheel" id="SVGRepo_iconCarrier">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.28869 2.76279C1.41968 2.36983 1.84442 2.15746 2.23737 2.28845L2.50229 2.37675C2.51549 2.38115 2.52864 2.38554 2.54176 2.38991C3.16813 2.59867 3.69746 2.7751 4.11369 2.96873C4.55613 3.17456 4.94002 3.42965 5.23112 3.83352C5.52221 4.2374 5.64282 4.68226 5.69817 5.16708C5.75025 5.62318 5.75023 6.18114 5.7502 6.84139L5.7502 9.49996C5.7502 10.9354 5.7518 11.9365 5.85335 12.6918C5.952 13.4256 6.13245 13.8142 6.40921 14.091C6.68598 14.3677 7.07455 14.5482 7.80832 14.6468C8.56367 14.7484 9.56479 14.75 11.0002 14.75H18.0002C18.4144 14.75 18.7502 15.0857 18.7502 15.5C18.7502 15.9142 18.4144 16.25 18.0002 16.25H10.9453C9.57774 16.25 8.47542 16.25 7.60845 16.1334C6.70834 16.0124 5.95047 15.7535 5.34855 15.1516C4.74664 14.5497 4.48774 13.7918 4.36673 12.8917C4.25017 12.0247 4.25018 10.9224 4.2502 9.55484L4.2502 6.883C4.2502 6.17 4.24907 5.69823 4.20785 5.33722C4.16883 4.99538 4.10068 4.83049 4.01426 4.71059C3.92784 4.59069 3.79296 4.47389 3.481 4.32877C3.15155 4.17551 2.70435 4.02524 2.02794 3.79978L1.76303 3.71147C1.37008 3.58049 1.15771 3.15575 1.28869 2.76279Z"
+                      fill="red"
+                    />
+                    <path
+                      opacity="0.5"
+                      d="M5.74512 6C5.75008 6.25912 5.75008 6.53957 5.75007 6.8414L5.75006 9.5C5.75006 10.9354 5.75166 11.9365 5.85321 12.6919C5.86803 12.8021 5.8847 12.9046 5.90326 13H16.0221C16.9815 13 17.4612 13 17.8369 12.7523C18.2126 12.5045 18.4016 12.0636 18.7795 11.1818L19.2081 10.1818C20.0176 8.29294 20.4223 7.34853 19.9777 6.67426C19.5331 6 18.5056 6 16.4507 6H5.74512Z"
+                      fill="red"
+                    />
+                    <path
+                      d="M7.5 18C8.32843 18 9 18.6716 9 19.5C9 20.3284 8.32843 21 7.5 21C6.67157 21 6 20.3284 6 19.5C6 18.6716 6.67157 18 7.5 18Z"
+                      fill="red"
+                    />
+                    <path
+                      d="M18 19.5001C18 18.6716 17.3284 18.0001 16.5 18.0001C15.6716 18.0001 15 18.6716 15 19.5001C15 20.3285 15.6716 21.0001 16.5 21.0001C17.3284 21.0001 18 20.3285 18 19.5001Z"
+                      fill="red"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="signup">
+                <a style="color: white; font-family: shabnam; font-size: 13px;text-decoration: none;"  href="./register.html" >ورود و ثبت نام</a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__menu">
+          <nav class="header__menu__nav">
+            <div class="header__menu__nav__item">
+              <a style="justify-content: left;" class="header__menu__nav__item__link" href="#">خانه</a>
+            </div>
+
+
+            
+            <div class="header__menu__nav__item">
+              
+              <a class="header__menu__nav__item__link"  href="./Accessories.html">لوازم جانبی موبایل و کامپیوتر</a>
+              <img src="./images/bottom.svg" alt="">
+
+<div class="header__menu__nav__item__link__submenu" >
+
+<div class="div"><a href="#">ماوس و کیبورد و پدموس</a> </div>
+<div class="div"><a href="#">اسپیکر</a> </div>
+<div class="div"><a href="#">تجهیزات ذخیره سازی</a>
+  <span><img src="./images/header/chevron.svg" alt=""></span>
+
+
+  
+<div class="header__menu__nav__item__link__submenu__item" >
+  <div ><a href="#">فلش مموری</a></div>
+  <div ><a href="#">کارت حافظه</a></div>
+<div><a href="#">هارد اکسترنال</a> </div>
+</div>
+</div>
+<div class="div"><a href="#">هولدر و نگهدارنده</a> </div>
+<div class="div"><a href="#">کابل شارژ</a>
+  <span><img src="./images/header/chevron.svg" alt=""></span>
+
+  <div class="header__menu__nav__item__link__submenu__item" >
+
+    <div><a href="#">کابل شارژ میکرو یو اس بی</a></div>
+  <div><a href="#">کابل شارژ تایپ سی</a></div>
+  <div><a href="#">   کابل شارژ لایتنینگ</a></div>
+  <div><a href="#">  کابل شارژ دوسر تایپ سی</a></div>
+  <div><a href="#">  کابل شارژ تایپ سی به لایتنینگ</a></div>
+  <div><a href="#">کابل شارژ سه کاره</a></div>
+  <div><a href="#">کابل شارژ  سامسونگ</a></div>
+  <div><a href="#">کابل شارژ آیفون</a></div>
+
+  </div>
+  
+</div>
+<div class="div"><a href="#">آداپتور و شارژر</a>
+  
+  <span><img src="./images/header/chevron.svg" alt=""></span>
+
+  <div class="header__menu__nav__item__link__submenu__item" >
+    <div><a href="#">شارژر دیواری</a></div>
+  <div><a href="#">   شارژر وایرلس</a></div>
+  <div><a href="#">  شارژر رومیزی</a></div>
+  <div><a href="#">  شارژر فندکی</a></div>
+  <div><a href="#">شارژر سامسونگ</a></div>
+   <div><a href="#">شارژر آیفون</a></div>
+
+  </div>
+
+
+
+</div>
+<div class="div"><a href="#">هندزفری وهدست،میکروفون</a> 
+
+  <span><img src="./images/header/chevron.svg" alt=""></span>
+
+  <div class="header__menu__nav__item__link__submenu__item" >
+    <div><a href="#">میکروفون</a></div>
+  <div><a href="#">   هندزفری سیم دار</a></div>
+  <div><a href="#">  هدست سیم دار</a></div>
+  <div><a href="#">  هدفون بلوتوث</a></div>
+  <div><a href="#">هندزفری بلوتوث دو گوش</a></div>
+   <div><a href="#">هندزفری بلوتوث دور گردنی</a></div>
+   <div><a href="#">هندزفری بلوتوث تک گوش</a></div>
+
+  </div>
+
+
+
+
+
+
+</div>
+<div class="div"><a href="#">پاوربانک و جامپ استارتر</a> </div>
+<div class="div"><a href="#">دسته بازی و خنک کننده موبایل </a> </div>
+<div class="div"><a href="#">انواع تبدیل برق</a> </div>
+<div class="div"><a href="#">کابل و دانگل انتقال تصویر</a> </div>
+<div class="div"><a href="#">انواع هاب</a> </div>
+<div class="div"><a href="#">فن خنک کننده کامپیوتر</a> </div>
+<div class="div"><a href="#">قاب و گلس</a> </div>
+
+
+
+
+</div>
+
+
+            </div>
+
+
+            <div class="header__menu__nav__item">
+              <a style="padding-right: 15px;" class="header__menu__nav__item__link" href="#">کابل-مبدل-رابط</a >
+                 <img src="./images/bottom.svg" alt="">
+                <div class="header__menu__nav__item__link__submenu" >
+                  <div class="div"><a href="#">   کابل HDMI </a> </div>
+                  <div class="div"><a href="#">  کابل پرینتر</a> </div>
+                  <div class="div"><a href="#">کابل هارد اکسترنال</a> </div>
+                  <div class="div"><a href="#">انواع رابط و تبدیل</a> </div>
+                  <div class="div"><a href="#">کابل AUX</a> </div>
+                  <div class="div"><a href="#">کابل 2 به 1 صدا</a> </div>
+                  <div class="div"><a href="#">کابل اپتیکال</a> </div>
+                  <div class="div"><a href="#">کابل و فیش OTG</a> </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="header__menu__nav__item">
+              <a style="padding-right: 15px;" class="header__menu__nav__item__link" href="#">لوازم تولید محتوا</a>
+               <img src="./images/bottom.svg" alt="">
+              <div class="header__menu__nav__item__link__submenu" >
+
+                  <div class="div"><a href="#">   میکروفون  </a> </div>
+                  <div class="div"><a href="#">  رینگ لایت و پایه</a> </div>
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="header__menu__nav__item">
+              <a style="padding-right: 15px;" class="header__menu__nav__item__link" href="#">لوازم شبکه</a>
+ <img src="./images/bottom.svg" alt="">
+   <div class="header__menu__nav__item__link__submenu" >
+
+                  <div class="div"><a href="#">   مودم - روتر  </a> </div>
+                  <div class="div"><a href="#">    هاب شیکه </a> </div>
+                  <div class="div"><a href="#">   مودم همراه  </a> </div>
+                  <div class="div"><a href="#">   لوازم جانبی  </a> </div>
+
+
+              </div>
+
+
+            </div>
+            <div class="header__menu__nav__item">
+              <a class="header__menu__nav__item__link" href="#">کنسول بازی و لوازم جانبی</a>
+ <img src="./images/bottom.svg" alt="">
+<div class="header__menu__nav__item__link__submenu" >
+                  <div class="div"><a href="#">   کیف  </a> </div>
+                  <div class="div"><a href="#">   کنسول </a> </div>
+                  <div class="div"><a href="#">موس و کیبرد   </a> </div>
+                  <div class="div"><a href="#">  دسته بازی </a> </div>
+                  <div class="div"><a href="#"> هندزفری و هدست </a> </div>
+                  <div class="div"><a href="#">شارژر دسته بازی</a> </div>
+
+
+            </div>
+            </div>
+
+
+            <div class="header__menu__nav__item">
+              <a class="header__menu__nav__item__link" href="#"  >لوازم خانگی و شخصی</a >
+                 <img src="./images/bottom.svg" alt="">
+                <div class="header__menu__nav__item__link__submenu" >
+ <div class="div"><a href="#">   کیف  </a> </div>
+                  <div class="div"><a href="#">   انواع گجت های جذاب </a> </div>
+                  <div class="div"><a href="#"> باتری و شارژر    </a> 
+                    <span><img src="./images/header/chevron.svg" alt=""></span>
+
+  <div class="header__menu__nav__item__link__submenu__item" >
+    <div><a href="#"> باتری آلکالاین</a></div>
+  <div><a href="#">    باتری ساده</a></div>
+  <div><a href="#">  باتری شارژی </a></div>
+  <div><a href="#">  شارژر باتری</a></div>
+  <div><a href="#">باتری سکه ای</a></div>
+                  
+                  
+                  </div>
+                  </div>
+                  <div class="div"><a href="#">   اندروید باکس و گیرنده دیجیتال </a> </div>
+                  <div class="div"><a href="#">  آنتن رومیزی  </a> </div>
+                  <div class="div"><a href="#"> مچ بند و ساعت هوشمند </a> </div>
+                   <div class="div"><a href="#">   محصولات کمبو </a> </div>
+                    <div class="div"><a href="#">   رابط برق و USB </a> </div>
+                     <div class="div"><a href="#">   اف ام پلیر </a> </div>
+
+                </div>
+
+            </div>
+
+            <div class="header__menu__nav__item">
+        
+              <a  style="padding-right: 45px;" class="header__menu__nav__item__link" href="#">برند ها</a>
+               <img  src="./images/bottom.svg" alt="">
+              <div class="header__menu__nav__item__link__submenu" >
+<div class="brand" >
+  
+  <div class="brand__items" >
+   <div class="brand__items__sub" >
+    <p>هایلو</p>
+    <p>Haylou</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>دای هارد</p>
+    <p>Die Hard</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>اسکال کندی</p>
+    <p>SkullCandy</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>اپل</p>
+    <p>Apple</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>کملیون</p>
+    <p>Camelion</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>کلومن پلاس</p>
+    <p>Koluman Plus</p>
+   </div>
+
+
+</div>
+<div class="brand__items" >
+
+<div class="brand__items__sub" >
+    <p>یسیدو</p>
+    <p>Yesido</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> نزتک</p>
+    <p>Naztech</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> پرووان</p>
+    <p>ProOne</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>ال دی نیو</p>
+    <p>Ldnio</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>دوراسل</p>
+    <p>Duracell</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> سومو</p>
+    <p> Somo</p>
+   </div>
+
+   
+</div>
+<div class="brand__items" >
+
+
+  <div class="brand__items__sub" >
+    <p>بیسوس</p>
+    <p>Baseus</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>بویا </p>
+    <p>Boya </p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>مک دودو </p>
+    <p>Mcdodo</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>پاورولوژی</p>
+    <p>Powerology</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>راو پاور</p>
+    <p>Ravpower</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> آکی</p>
+    <p> Auky</p>
+   </div>
+   
+</div>
+<div class="brand__items" >
+
+  <div class="brand__items__sub" >
+    <p>انکر</p>
+    <p>Anker</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> آینوبن</p>
+    <p>Inoben </p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> مومکس</p>
+    <p>Momax</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>وسترن دیجیتال</p>
+    <p>Western Digital</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>شیائومی</p>
+    <p>Xiaomi</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> پاناسونیک</p>
+    <p> Panasonic</p>
+   </div>
+   
+</div>
+<div class="brand__items" >
+  <div class="brand__items__sub" >
+    <p>نیکیین</p>
+    <p>Neekin</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> پایونییر</p>
+    <p>Pioneer </p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> جی پی</p>
+    <p>GP</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>ای فورتک</p>
+    <p>A4tech</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p>وان مور</p>
+    <p>1more</p>
+   </div>
+   <div class="brand__items__sub" >
+    <p> مکسل</p>
+    <p> Maxell</p>
+   </div>
+
+</div>
+
+              </div>
+
+              
+            </div>
+
+          
+        </div>
+      
+      </header>
+      <!-- #endregion header-->
+
+
+     <div class="wraper">
+
+
+
+      <!--#region banner-->
+      <div class="banner">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/banner/image-1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/banner/image-2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/banner/image-3.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- #endregion -->
+
+      <!--#region discount-->
+      <div class="discount">
+        <div class="discount__main">
+          <div class="discount__main__title">
+            <h1>
+              <img src="./images/discount/dis.svg" alt="" />
+              تخفیف های روزانه دسترسی
+            </h1>
+            <div class="timer">33:50:25</div>
+          </div>
+          <div class="discount__main__items">
+            <div class="discount__main__item">
+              <div class="image">
+                <img src="./images/discount/jetfan.png" alt="" />
+                <div class="text">
+                <h3>جت فن 130 هزار دور پرودو مدل Porodo LFS129</h3>
+                <div class="discount__percent">
+                  <span class="line">4.000.000</span>
+                  <span class="offer">4.490.000 تومان تخفیف</span>
+                </div>
+                <div class="main__price">
+                  <span class="num">4.090.000</span>
+                  <span class="toman">تومان </span>
+                </div>
+              </div>
+              </div>
+              
+            </div>
+            <div class="discount__main__item">
+
+<div class="image">
+                <img src="./images/discount/power.png" alt="" />
+                <div class="text">
+                <h3>
+                        پاوربانک وایرلس شارژ مگ سیف 5000 میلی آمپر پاورولوژی مدل Powerology PP063                        </h3>
+                <div class="discount__percent">
+                  <span class="line">1.910.000</span>
+                  <span class="offer">300.000 تومان تخفیف</span>
+                </div>
+                <div class="main__price">
+                  <span class="num">1.610.000</span>
+                  <span class="toman">تومان </span>
+                </div>
+              </div>
+              </div>
+              
+
+            </div>
+            <div class="discount__main__item">
+
+<div class="image" >
+
+
+<div class="discount__main__item__4">
+
+<div class="box" >
+
+<img class="img_box" src="./images/discount/masajor.png" alt="">
+
+
+                <div class="text_box">
+                <h3 >ماساژور تفنگی پاورولوژی Powerology Full Body Massage Gun PSM02</h3>
+                <div class="discount__percent2">
+                  <span class="line2">5.890.000</span>
+                  <span class="offer2">400.000 تومان تخفیف</span>
+                </div>
+                <div class="main__price2">
+                  <span class="num2">5.490.000</span>
+                  <span class="toman2">تومان </span>
+                </div>
+              </div>
+
+
+</div>
+<div class="box" >
+
+
+
+<img class="img_box" src="./images/discount/jump.png" alt="">
+
+
+                <div class="text_box">
+                <h3 >
+                                جامپ استاتر و پمپ باد گرین مدل Green Lion GN12VJUSTBK                            </h3>
+                <div class="discount__percent2">
+                  <span class="line2">9.690.000</span>
+                  <span class="offer2">2.000.000 تومان تخفیف</span>
+                </div>
+                <div class="main__price2">
+                  <span class="num2">7.690.000</span>
+                  <span class="toman2">تومان </span>
+                </div>
+              </div>
+
+
+</div>
+<div class="box" >
+
+
+
+
+<img class="img_box" src="./images/discount/pen.png" alt="">
+
+
+                <div class="text_box">
+                <h3 >
+                                قلم هوشمند مک دودو مدل Mcdodo Pn-3080                                                  </h3>
+                <div class="discount__percent2">
+                  <span class="line2">1.615.000</span>
+                  <span class="offer2">200.000 تومان تخفیف</span>
+                </div>
+                <div class="main__price2">
+                  <span class="num2">1.415.000</span>
+                  <span class="toman2">تومان </span>
+                </div>
+              </div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+  
+
+
+
+</div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- #endregion discount -->
+
+      <!--region categori-->
+
+      <div class="categori">
+        <h1>دسته بندی های منتخب</h1>
+        <div class="categori__slider">
+          <div class="swiper myCategori">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/categori/adaptor.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/battery.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/cable.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/gaming.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/handsfree.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/holder.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/mobadel.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/categori/powerbank.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- #endregion categori -->
+
+<!--#region available-->
+
+<div class="available">
+
+<div class="available__header">
+
+<h2>همین الان موجود شد ... </h2>
+<span> مشاهده همه محصولات 
+<img src="./images/available/left.svg" alt="">
+
+</span>
+</div>
+<div class="available__swipper">
+
+
+
+  <div class="swiper myavailable">
+    <div class="swiper-wrapper">
+
+
+
+      <div class="swiper-slide">
+        <img src="./images/available/cabl.png" alt="">
+      <p >کابل شارژ تایپ سی به لایتنینگ</p>
+      <p class="text" >
+         کابل شارژ مگنتی تایپ سی به لایتنینگ 36 واتی مک دودو مدلMcdodoCA-2010    </p>
+      <h3>580.000</h3>
+      <div class="offer" >
+<h4>380.000</h4><span>تومان</span>
+      </div>
+
+      </div>
+
+
+      <div class="swiper-slide"> 
+        <img src="./images/available/ballmasaj.png" alt="">
+      <p >انواع گجت های جذاب</p>
+      <p class="text" >     ماساژور توپی گرین مدل Green Lion G...    </p>
+      <p class="empty" >ناموجود</p>
+      </div>
+
+
+
+      <div class="swiper-slide"> 
+
+<img src="./images/available/desksharjer.png" alt="">
+
+<p >شارژر رو میزی</p>
+      <p class="text" >  شارژر رومیزی 140 واتی الدینیو مدل ...  </p>
+      <div class="offer" >
+<h4>2.295.000</h4><span>تومان</span>
+      </div>
+      </div>
+
+
+
+      <div class="swiper-slide">
+<img src="./images/available/jetfan.png" alt="">
+<p >انواع گجت های جذاب</p>
+<p class="text" >  
+    جت فن 150 واتی گرین مدلGreenLion...</p>
+    <p class="empty" >ناموجود</p>
+
+      </div>
+
+
+      <div class="swiper-slide">
+        <img src="./images/available/joiser.png" alt="">
+
+
+<p >  لوازم خانگی و شخصی</p>
+      <p class="text" >        
+جویسر 600 میلی لیتر گرین مدل Green...    </p>
+      <div class="offer" >
+<h4>2.390.000</h4><span>تومان</span>
+      </div>
+      </div>
+
+
+      <div class="swiper-slide">
+        <img src="./images/available/pomp.png" alt="">
+ <p >   انواع گجت های جذاب </p>
+      <p class="text" >
+         
+پمپ باد گرین INFLATOR مدل Green Li...</p>
+      <h3>2.770.000</h3>
+      <div class="offer" >
+<h4>1.990.000</h4><span>تومان</span>
+      </div>
+      </div>
+
+
+      <div class="swiper-slide">
+        <img src="./images/available/power5000.png" alt="">
+
+<p >  پاوربانک و جامپ استارتر </p>
+<p class="text" >  
+پاوربانک 50000 میلی آمپر 22.5 واتی...</p>
+    <p class="empty" >ناموجود</p>
+      </div>
+
+
+
+      <div class="swiper-slide">
+<img src="./images/available/powerbank.png" alt="">
+
+<p >      پاوربانک و جامپ استارتر </p>
+      <p class="text" >
+پاوربانک 27600 میلی آمپر 130 واتی ...</p>
+      <h3>6.950.000</h3>
+      <div class="offer" >
+<h4>6.810.000</h4><span>تومان</span>
+      </div>
+      </div>
+
+
+
+      <div class="swiper-slide">
+        <img src="./images/available/rabet.png" alt="">
+
+<p >    رابط برق و USB</p>
+      <p class="text" >        
+ 
+رابط برق USB دار 65 واتی الدینیو م...</p>
+      <div class="offer" >
+<h4>1.947.000</h4><span>تومان</span>
+      </div>
+      </div>
+
+
+       <div class="swiper-slide">
+<img src="./images/available/solarpower.png" alt="">
+
+<p >      پاوربانک و جامپ استارتر </p>
+      <p class="text" >
+
+پاوربانک وایرلس شارژ سولار 27000 م...</p>
+      <h3>3.900.000</h3>
+      <div class="offer" >
+<h4>3.685.000</h4><span>تومان</span>
+      </div>
+
+       </div>
+
+        <div class="swiper-slide">
+          <img src="./images/available/wallsharger.png" alt="">
+          <p >      شارژر دیواری</p>
+      <p class="text" >        
+شارژر دیواری 20 واتی به همراه کابل... </p>
+      <div class="offer" >
+<h4>950.000</h4><span>تومان</span>
+      </div>
+        </div>
+         
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+</div>
+
+</div>
+
+<!--#endregion available-->
+
+
+<!-- #region Why Dasresi-->
+
+<div  class="why" >
+  
+<p class="why__header" >چرا دسترسی رو برای خرید انتخاب کنیم؟</p>
+
+<div class="why__answer" >
+<div><img src="./images/why/icon1.png" alt="">
+<p class="why__top" >مشاوره تخصصی برای خرید محصول</p>
+<p class="why__bottom" >برای خرید هر محصول با تیم دسترسی در ارتباط باشید تا بهترین انتخاب رو انجام دهید.</p>
+
+</div>
+<div><img src="./images/why/icon2.png" alt="">
+<p class="why__top" >   قیمت مناسب با بالاترین کیفیت</p>
+<p class="why__bottom" >گروه دسترسی در تلاش است که کالای با کیفیت را با مناسب‌ترین قیمت به دست شما برساند.
+
+</p>
+
+
+</div>
+<div>
+  <img src="./images/why/icon3.png" alt="">
+
+  <p class="why__top" >  ارسال سریع</p>
+<p class="why__bottom" >  ارسال از طریق تیپاکس، پست پیشتاز و پیک موتوری (ویژه تهران) صورت می گیرد. </p>
+
+</div>
+<div><img src="./images/why/icon4.png" alt="">
+
+
+  <p class="why__top" >   امکان خرید حضوری</p>
+<p class="why__bottom" >  مشتری گرامی جهت خرید حضوری می‌توانید به آدرس مندرج در پایین سایت مراجعه نمایید.
+
+ </p>
+
+
+</div>
+</div>
+
+</div>
+
+<!-- #endregion why dasresi -->
+
+
+<!-- #region best seller-->
+
+
+
+<div class="best__seller" >
+
+  <div class="bestseller__header" >
+
+
+<h2>پرفروش ترین محصولات </h2>
+<span> مشاهده همه محصولات 
+<img src="./images/available/left.svg" alt="">
+
+</span>
+</div>
+
+
+
+<div class="bestseller__swiper" >
+
+<div class="swiper mySeller">
+    <div class="swiper-wrapper">
+
+      
+      <div class="swiper-slide">
+       
+      <img src="./images/bestseller/25w.png" alt="">
+      <p > شارژر دیواری</p>
+      <p class="text" >
+       
+                                        شارژر دیواری 25 وات هادرون مدل Had...                                      </p>
+      <h3>625.000</h3>
+      <div class="offer" >
+<h4>595.000</h4><span>تومان</span>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+
+<img src="./images/bestseller/battery.png" alt="">
+      <p > باتری آلکالاین</p>
+      <p class="text" >
+         
+                                        باتری نیم قلم 10 تایی شیائومی مدل ...                                      </p>
+      
+      <div class="offer" >
+<h4>269.000</h4><span>تومان</span>
+      </div>
+
+
+
+      </div>
+      <div class="swiper-slide">
+
+<img src="./images/bestseller/batteryghalam.png" alt="">
+      <p >  باتری آلکالاین</p>
+      <p class="text" >
+       
+                                        باتری قلمی 10تایی شیائومی مدل Xiao...                                                                        </p>
+    
+      <div class="offer" >
+<h4>269.000</h4><span>تومان</span>
+      </div>
+
+      </div>
+      <div class="swiper-slide">
+
+
+  <img src="./images/bestseller/handsblu.png" alt="">
+      <p >  هندزفری بلوتوث دو گوش</p>
+      <p class="text" >
+       
+                                      
+                                        هندزفری بلوتوثی ورزشی القایی پاورو...                                    </p>
+      <h3>3.100.000</h3>                                      
+      <div class="offer" >
+<h4>2.800.000</h4><span>تومان</span>
+      </div>
+
+
+      </div>
+      <div class="swiper-slide">
+
+
+   <img src="./images/bestseller/handsfree.png" alt="">
+
+<p >  هندزفری بلوتوث دو گوش</p>
+<p class="text" >  
+    
+                                        هندزفری بلوتوثی A30i انکر مدل Anke...                                    </p>
+    <p class="empty" >ناموجود</p>
+      </div>
+
+      <div class="swiper-slide">
+
+<img src="./images/bestseller/hubtype.png" alt="">
+      <p > انواع گجت های جذاب </p>
+   <p class="text" >  
+    
+                                        هندزفری بلوتوثی A30i انکر مدل Anke...                                    </p>
+    <p class="empty" >ناموجود</p>
+      </div>
+
+      <div class="swiper-slide">
+
+<img src="./images/bestseller/jumpstarter.png" alt="">
+
+      <p >    انواع گجت های جذاب </p>
+      <p class="text" >
+       
+                                        
+                                        پمپ باد گرین INFLATOR مدل Green Li...                                                                 </p>
+      <h3>9.690.000</h3>                                      
+      <div class="offer" >
+<h4>7.690.000</h4><span>تومان</span>
+      </div>
+
+      </div>
+
+      <div class="swiper-slide">
+
+
+<img src="./images/bestseller/keyboard.png" alt="">
+    <p >       ماوس و کیبورد و پدموس </p>
+      <p class="text" >
+       
+                                        
+                                        پمپ باد گرین INFLATOR مدل Green Li...                                                                 </p>
+      <h3>2.590.000</h3>                                      
+      <div class="offer" >
+<h4>2.390.000</h4><span>تومان</span>
+      </div>
+
+      </div>
+<div class="swiper-slide">
+<img src="./images/bestseller/pomp.png" alt="">
+
+<p >       ماوس و کیبورد و پدموس </p>
+      <p class="text" >
+       
+                                     
+                                        پمپ باد گرین INFLATOR مدل Green Li...                                                                  </p>
+      <h3>2.630.000</h3>                                      
+      <div class="offer" >
+<h4>1.850.000</h4><span>تومان</span>
+      </div>
+
+</div>
+
+<div class="swiper-slide">
+
+<img src="./images/bestseller/wallsharjer.png" alt="">
+
+<p >       شارژر دیواری  </p>
+      <p class="text" >
+       
+                                    
+                                        شارژر دیواری 67 واتی گان با کابل ت...                                                                                                 </p>
+      <h3>2.352.000</h3>                                      
+      <div class="offer" >
+<h4>1.997.000</h4><span>تومان</span>
+      </div>
+</div>
+
+<div class="swiper-pagination"></div>
+    </div>
+    
+      </div>
+      
+  </div>
+
+
+
+      </div>
+
+
+
+ <!-- #endregion  best seller -->
+
+
+ <!-- #region  favorits -->
+
+
+<div class="favorits" >
+
+<div class="favorits__header" >
+<h1>محبوب ترین برند ها </h1>
+
+</div>
+
+
+<div class="favorits__swiper" >
+
+
+<div class="swiper myfavorit">
+
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+<img src="./images/favorits/ace.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/favorits/anker.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/favorits/comelion.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/favorits/inoben.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/favorits/mcdodo.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/favorits/powerology.png" alt=""></div>
+      <div class="swiper-slide"><img src="./images/favorits/rawver.png" alt=""></div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+<!-- #endregion favorits -->
+
+
+
+
+<!-- #region last -->
+
+
+
+<div class="last" >
+
+<div class="last__header" >
+
+<h1>  آخرین مقالات  </h1>
+
+</div>
+<div class="last__swiper" >
+
+
+<div class="swiper myfavorit">
+
+
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+<img src="./images/last/behtarin.png" alt="">
+<p>بهترین هارد اکسترنال SSD: سرعت و امنیت در کنار هم!</p>
+
+</div>
+      <div class="swiper-slide"><img src="./images/last/cable.png" alt="">
+      <p>بهترین کابل شارژ برای آیفون: راهنمای کامل انتخاب در ۵ د...</p>
+      </div>
+      <div class="swiper-slide"><img src="./images/last/kharid.png" alt="">
+<p>خرید بهترین هندزفری سیمی تا ۵۰۰ تومان</p>
+      </div>
+      <div class="swiper-slide"><img src="./images/last/micro.png" alt="">
+      <p>معرفی ۵ مدل از بهترین میکروفون بویا</p>
+      </div>
+      <div class="swiper-slide"><img src="./images/last/rahnama.png" alt="">
+      <p>راهنمای خرید بهترین میکروفون زیر ۱ میلیون تومان</p>
+    
+    </div>
+      <div class="swiper-slide"><img src="./images/last/sharger.png" alt="">
+      
+      <p>شارژ بی‌ سیم در برابر شارژ با کابل: کدام یک برای آیفون ...</p>
+      </div>
+      <div class="swiper-slide"><img src="./images/last/what.png" alt="">
+      <p>کابل MFi چیست؟ : ناجی باتری آیفون شما یا یک حقه تبلیغات...</p>
+      </div>
+      <div class="swiper-slide"><img src="./images/last/why.png" alt="">
+      <p>چرا آیفون من شارژ نمی‌شود؟ راهنمای رفع مشکل</p>
+      </div>
+      
+    </div>
+   
+  </div>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- #endregion  last -->
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- #region  footer -->
+
+
+<div class="footer" >
+
+<div class="footer1" >
+
+<div class="footer1__text">
+
+<img src="./images/tell.svg" alt="">
+<span>021-33902646</span>
+
+</div>
+
+<div class="footer1__text2">
+
+<img src="./images/clock.svg" alt="">
+<span>شنبه تا چهارشنبه از ساعت 10 صبح الی ساعت 18 پنجشنبه ها از 10 صبح الی ساعت 16</span>
+
+
+</div>
+
+
+<div class="footer1__text3" >
+
+<img src="./images/loc.svg" alt="">
+<span>تهران - میدان امام خمینی - پاساژ لباف - همکف - پلاک 3 - فروشگاه بدیع</span>
+
+
+</div>
+
+<div class="footer1__text4" >
+ <div class="up">
+  <p class="goup" >برو بالا</p>
+  <img src="./images/up.svg" alt="">
+
+</div>
+</div>
+
+</div>
+
+
+
+
+<div class="footer2" >
+
+  <div class="footer2__1" >
+    <img src="./images/header/logo.png" alt="">
+  </div>
+
+  <div class="footer2__2" >
+<h3>فروشگاه اینترنتی دسترسی</h3>
+<p>
+فروشگاه دسترسی فعالیت خود را از سال 1389 به صورت فروش فیزیکی کالا در حوزه لوازم جانبی کامپیوتر و موبایل در تهران شروع کرد و از سال 1398 از طریق پیج اینستاگرام وارد فروش آنلاین شد و به خاطر ارائه کالای اصلی و مشاوره های دقیق در بازه بسیار کوتاهی توانست اعتماد بسیاری از مشتریانش را جلب کند و سرانجام در سال 1399 فروش از طریق سایت را هم به فعالیت های خود اضافه کرد تا اینکه بتواند با بررسی دقیق کالاها انتخاب صحیح شما را به ارمغان آورد. و امروز دسترسی فعالیت خود را در زمینه آداپتور موبایل، کابل شارژ، پاوربانک، ساعت هوشمند، هندزفری و هدست، لوازم گیمینگ، باتری و شارژر، لوازم شبکه، تجهیزات ذخیره سازی، گیرنده دیجیتال و هزاران گجت جذاب ادامه میدهد.</p>
+
+  </div>
+
+
+<div class="footer2__3" >
+
+<h4>دسترسی سریع</h4>
+<p>باشگاه مشتریان</p>
+<p>سوالات متداول</p>
+<p>بلاگ</p>
+<p>شرایط و قوانین</p>
+<p>ارتباط با ما</p>
+<p>درباره ما</p>
+
+</div>
+
+<div class="footer2__4" >
+
+<img src="./images/1.png" alt="">
+
+</div>
+
+
+
+</div>
+
+
+
+<div class="footer3" >
+
+  <p>تمامی حقوق این سایت محفوظ و متعلق به فروشگاه اینترنتی دسترسی می‌باشد.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- #endregion footer -->
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="check">
+        <div class="checkItem"></div>
+      </div>
+    </div> -->
+ 
+    <!-- #endregion -->
+
+
+
+  </div>
+
+
+
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+      var swiper = new Swiper(".myCategori", {
+        slidesPerView: 6,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+
+
+    var swiper = new Swiper(".myavailable", {
+      slidesPerView: 4,
+      spaceBetween: 14,
+      freeMode: true,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+
+    
+
+    var swiper = new Swiper(".mySeller", {
+      slidesPerView: 4,
+      spaceBetween: 15,
+      freeMode: true,
+      loop: true,
+
+ autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+
+
+
+    
+    var swiper = new Swiper(".myfavorit", {
+      
+      slidesPerView: 6,
+      spaceBetween: 5,
+      freeMode: true,
+      loop: true,
+
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    
+
+    </script>
+
+
+  </body>
+</html>
